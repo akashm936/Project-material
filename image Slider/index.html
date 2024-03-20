@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image slider</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="slideshow-container">
+            <div class="myslides fade">
+                
+                <img src="image Slider/Image1.jpg" alt="" srcset="">
+            </div>
+            <div class="myslides fade">
+                
+                <img src="image Slider/Image2.jpg" alt="" srcset="">
+            </div>
+            <div class="myslides fade">
+                
+                <img src="image Slider/Image3.jpg" alt="" srcset="">
+            </div>
+            <div class="myslides fade">
+                
+                <img src="image Slider/Image4.jpg" alt="" srcset="">
+            </div>
+            <div class="myslides fade">
+                
+                <img src="image Slider/Image5.jpg" alt="" srcset="">
+            </div>
+            
+            <!-- Next and previous Button-->
+            <a class="prev" onclick="plusslides(-1)">&#10094;</a>
+            <a class="next" onclick="plusslides(1)">&#10095;</a>
+    
+        </div>
+        <div style="text-align: center;">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    
+    </div>
+</body>
+</html>
